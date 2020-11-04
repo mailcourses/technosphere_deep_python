@@ -1,0 +1,12 @@
+<html>
+    <head/>
+    <body>
+        <h1>{{ title }} </h1>
+        {% for movie in movies %}
+            <div>
+                <h2>{{ movie.title }} - {{ movie.year }}</h2>
+                <p>{{ movie.descr }}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>
